@@ -79,10 +79,67 @@ const mandem = {
   contact: {
     email: "asokwanana909@gmail.com",
     phone: {
-      home: +999-894-234-7865,
-      work: +234-777-234-9201,
+      home: "+999-894-234-7865",
+      work: "+234-777-234-9201",
     }
   }
 };
 
 console.log(mandem.name);
+console.log(mandem.age);
+console.log(mandem.contact);
+console.log(mandem.contact.email);
+console.log(mandem.contact.phone.work);
+console.log(mandem["contact"]["phone"]["home"]);
+
+//Nested Array objects
+const students = [
+  {name: "Yaw", age: 14, class: "Basic 4", score: 89},
+  {name: "Ama", age: 14, class: "Basic 4", score: 68},
+  {name: "Adjoa", age: 13, class: "Basic 4", score: 77},
+];
+// //full array
+console.log(students);
+
+//The individual objects in the array
+console.log(students[0]);
+console.log(students[1]);
+console.log(students[2]);
+
+//Specific properties in the objects in the array
+console.log(students[0].name);
+console.log(students[1].name);
+console.log(students[2].name);
+
+console.log(students[0].score);
+console.log(students[1].score);
+console.log(students[2].score);
+
+const resident = {
+  name: "Alice",
+  age: 30,
+  addresses: [
+    { type: "home", street: "123 Main St", city: "Anytown" },
+    { type: "work", street: "456 Market St", city: "Workville" }
+  ]
+};
+
+console.log(resident);
+
+console.log(resident.addresses);
+console.log(resident.addresses[0]);
+console.log(resident.addresses[1]);
+
+console.log(resident.addresses[0].type);
+console.log(resident.addresses[1].type);
+console.log(resident.addresses[0].street);
+console.log(resident.addresses[1].street);
+
+//The object method
+//The Object() method can be used with new to store values.
+//new Object()
+
+const profileName = "D3f4ult";
+const profileName1 = Object(profileName);
+console.log(profileName1);
+console.log(typeof profileName1);
