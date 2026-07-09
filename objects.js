@@ -143,3 +143,26 @@ const profileName = "D3f4ult";
 const profileName1 = Object(profileName);
 console.log(profileName1);
 console.log(typeof profileName1);
+
+//JSON
+//object
+const bob ={
+  name: "Kelvin",
+  age: 46,
+  working: false,
+  hobbies: ["football", "COD", "hanging out with friends"]
+};
+
+console.log(bob);
+console.log(bob.name);
+console.log(bob.age);
+console.log(bob.working);
+console.log(bob.hobbies);
+
+bob.hobbies[3] = "fishing";
+console.log(bob.hobbies);
+
+console.log(typeof bob);
+
+//This here turns the bob object into a JSON string
+console.log(JSON.stringify(bob));
