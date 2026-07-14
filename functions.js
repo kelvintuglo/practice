@@ -309,7 +309,6 @@ function outer() {
 }
 
 console.log(outer()); //5
-console.log(x); // Reference Error - Not defined
 
 function isPositive (n) {
   if (n > 0) {
@@ -326,3 +325,32 @@ const isNegative = (n) => {
     return false;
   }
 }
+
+function add(x, y) {
+  return x + y;
+}
+
+console.log(add(2, 3));
+
+// let town = "Bawjiase";
+function callTown(town) {
+  return `I live in ${town}`;
+}
+
+console.log(callTown("Bawjiase"));
+
+//even or odd
+function evenOrOdd(num) {
+  if (num % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}
+
+console.log(evenOrOdd(2));
+console.log(evenOrOdd(3));
+console.log(evenOrOdd(16));
+console.log(evenOrOdd(7));
+console.log(evenOrOdd(-3));
+console.log(evenOrOdd(0));
