@@ -166,3 +166,23 @@ console.log(typeof bob);
 
 //This here turns the bob object into a JSON string
 console.log(JSON.stringify(bob));
+
+//Object Revision
+const laptop = {
+  brand: "Hp",
+  model: "Elitebook 8460p",
+  os: "Ubuntu 24.04 LTS",
+  specs: {
+    processor: "Intel core i5 2nd Gen @3.3000GHz",
+    ram: 16,
+    storage: "500 HDD",
+  }
+}
+
+console.log(laptop.brand);
+console.log(laptop.model);
+console.log(laptop.os);
+console.log(laptop.specs);
+console.log(laptop.specs.processor);
+console.log(laptop.specs.ram);
+console.log(laptop.specs.storage);
