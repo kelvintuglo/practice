@@ -43,42 +43,42 @@ console.log(convertCtoF(30));
 console.log(convertCtoF(-10));
 
 //Card Counter
-// let count = 0;
-// function cardCounter (card) {
-//   switch (card) {
-//     case 2:
-//     case 3:
-//     case 4:
-//     case 5:
-//     case 6:
-//       count++;
-//       break;
+let count = 0;
+function cardCounter (card) {
+  switch (card) {
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+      count++;
+      break;
     
-//     case 10:
-//     case "J":
-//     case "Q":
-//     case "K":
-//     case "A":
-//       count--;
-//       break;
+    case 10:
+    case "J":
+    case "Q":
+    case "K":
+    case "A":
+      count--;
+      break;
     
-//     default:
+    default:
 
-//   }
+  }
 
-//   if (count > 0) {
-//     return `${count} Bet`;
-//   } else {
-//     return `${count} Hold`;
-//   }
-// }
+  if (count > 0) {
+    return `${count} Bet`;
+  } else {
+    return `${count} Hold`;
+  }
+}
 
-// console.log(cardCounter(4));
-// console.log(cardCounter(-2));
-// console.log(cardCounter("A"));
-// console.log(cardCounter(5));
+console.log(cardCounter(4));
+console.log(cardCounter(-2));
+console.log(cardCounter("A"));
+console.log(cardCounter(5));
 
-// Leap Year
+//Leap Year
 
 let year = 2016;
 function isLeapYear (year) {
@@ -133,22 +133,22 @@ console.log(confirmEnding("Open sesame", "game"));
 console.log(confirmEnding("If you want to save our world, you must hurry. We don't know how much longer we can withstand the nothing", "mountain"));
 console.log(confirmEnding("Abstraction", "action"));
 
-// function celsiusToFahrenheit (celsius) {
-//   let fahrenheit = celsius * (9/5) + 32;
-//   return fahrenheit;
-// }
+function celsiusToFahrenheit (celsius) {
+  let fahrenheit = celsius * (9/5) + 32;
+  return fahrenheit;
+}
 
-// console.log(celsiusToFahrenheit(30));
+console.log(celsiusToFahrenheit(30));
 
 //arrow function
-// const celsiusToFahrenheit = (celsius) => {
-//   let fahrenheit = celsius * (9/5) + 32;
-//   return fahrenheit;
-// }
+const celsiusToFahrenheit = (celsius) => {
+  let fahrenheit = celsius * (9/5) + 32;
+  return fahrenheit;
+}
 
-// console.log(celsiusToFahrenheit(32));
+console.log(celsiusToFahrenheit(32));
 
-//expression
+expression
 const celsiusToFahrenheit = function(celsius) {
   let fahrenheit = celsius * (9/5) + 32;
   return fahrenheit;
