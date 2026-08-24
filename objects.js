@@ -186,3 +186,11 @@ console.log(laptop.specs);
 console.log(laptop.specs.processor);
 console.log(laptop.specs.ram);
 console.log(laptop.specs.storage);
+
+const school = {
+  name: "UCC",
+  course: "IT/Maths",
+  subjects: 9
+};
+
+console.log(school.subjects);
