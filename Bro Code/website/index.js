@@ -1,5 +1,164 @@
 console.log("Hello, World!");
 console.log("I like pizza.");
 
-window.alert(`This is an alert`);
-window.alert(`I like pizza`);
+// window.alert(`This is an alert`);
+// window.alert(`I like pizza`);
+
+// const name = "Kojo Manu";
+
+// document.getElementById("myH1").textContent = "Hello"; 
+// document.getElementById("myP").textContent = `Welcome, ${name}`;
+
+
+// //Variables
+let age = 25;
+console.log(age);
+console.log(typeof age);
+
+let price = 20.99;
+console.log(price);
+console.log(typeof price);
+
+let gpa = 2.1;
+console.log(gpa);
+console.log(typeof gpa);
+
+console.log(`You are ${age} years old`);
+console.log(`The price is $${price}`);
+console.log(`YOur gpa is: ${gpa}`);
+
+// //Strings
+let firstName = "tugy";
+console.log(firstName);
+console.log(typeof firstName);
+console.log(`Your firstName is ${firstName}`);
+
+let favouriteFood = "Waakye";
+console.log(favouriteFood);
+console.log(typeof favouriteFood);
+console.log(`Your favourite food is: ${favouriteFood}`); 
+
+let email = "wagwan456@cockney.com";
+console.log(email);
+console.log(typeof email);
+console.log(`The email is: ${email}`);
+
+// //Booleans
+let online = true;
+console.log(online);
+console.log(typeof online);
+console.log(`He is online: ${online}`);
+
+let forSale = true;
+console.log(forSale);
+console.log(typeof forSale);
+console.log(`Is this car for sale? ${forSale}`); 
+
+let isEnrolled = false;
+console.log(isEnrolled);
+console.log(typeof isEnrolled);
+console.log(`Are you enrolled in school? ${isEnrolled}`);
+
+// let fullName = "Ethan Castle";
+// let score = 26;
+// let student = true;
+
+// document.getElementById("p1").textContent = `My full name is: ${fullName}.`;
+// document.getElementById("p2").textContent = `I am ${score} years old.`;
+// document.getElementById("p3").textContent = `Are you currently a student: ${student}.`; 
+
+//Arithmetic Operators
+
+let students = 45;
+students = students + 1;
+students = students - 1;
+students = students * 1;
+students = students / 1;
+students = students ** 2;
+students = students % 4;
+
+//Augmented assignment operators
+students += 1;
+students -= 1;
+students *= 2;
+students /= 2;
+students **= 2;
+students %= 2;
+
+//Increment and Decrement operators
+students++;
+students--;
+
+
+
+console.log(students);
+
+
+//Taking User Imput
+// 1. Creating a window prompt
+// 2. HTML Textbox
+
+// Creating a window prompt.
+// let username;
+// username = window.prompt("What's your username?");
+// console.log(username);
+
+// 2 
+let username;
+// document.getElementById("mySubmit").onclick = function () {
+//   username = document.getElementById("myText").value;
+//   console.log(username);
+//   document.getElementById("myh2").textContent = `Wagwan, ${username}`;
+// }
+
+let firstname;
+let lastname;
+let fullname;
+
+// document.getElementById("submit").onclick = function () {
+//   firstname = document.getElementById("firstname").value;
+//   lastname = document.getElementById("lastname").value;
+//   fullname = firstname + " " + lastname;
+//   document.getElementById("g").textContent = `Welcome back ${fullname}`;
+//   console.log(fullname);
+// }
+
+//Circumference
+const PI = 3.14159;
+let radius;
+let circumference;
+
+// document.getElementById("h").onclick = function () {
+//   radius = document.getElementById("rad").value;
+//   radius = Number(radius);
+//   circumference = 2 * PI * radius;
+//   document.getElementById("myh3").textContent = `Circumference is: ${circumference}cm`;
+// }
+
+//Counter Program
+const decreaseBtn = document.getElementById("decreaseBtn");
+const resetBtn = document.getElementById("resetBtn");
+const increaseBtn = document.getElementById("increaseBtn");
+const countlabel = document.getElementById("countlabel");
+
+let count = 0;
+increaseBtn.onclick = function() {
+  count += 2;
+  countlabel.textContent = count;
+  console.log(count);
+}
+
+resetBtn.onclick = function(){
+  count = 0;
+  countlabel.textContent = count;
+}
+
+decreaseBtn.onclick = function(){
+  count -= 2;
+  countlabel.textContent = count;
+  console.log(count);
+}
+
+//Random Number
+let random = Math.random();
+console.log(random);
