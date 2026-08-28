@@ -1,0 +1,59 @@
+#text{
+  font-size: 1.5em;
+  font-family: "Gill Sans";
+}
+
+#total-score{
+  font-size: 1.5em;
+  font-family: "Gill Sans";
+}
+
+#remarks{
+  font-size: 1.5em;
+  font-family: "Gill Sans";
+}
+
+#test1{
+  margin: 5px 0;
+  width: 300px;
+  height: 30px;
+  font-size: 1.5em;
+  padding: 5px;
+}
+
+#test2{
+  margin: 5px 0;
+  width: 300px;
+  height: 30px;
+  font-size: 1.5em;
+  padding: 5px;
+}
+
+#exam-score{
+  margin: 5px 0;
+  width: 300px;
+  height: 30px;
+  font-size: 1.5em;
+  padding: 5px;
+}
+
+#submit{
+  width: 150px;
+  height: 40px;
+  font-size: 1.5em;
+  background-color: lightblue;
+  color: blue;
+  border-radius: 5px;
+}
+
+#submit:hover {
+  background-color: firebrick;
+  cursor: pointer;
+  height: 40px;
+  color: black;
+}
+
+label {
+  font-size: 1.5em;
+  font-family: sans-serif;
+}
