@@ -171,3 +171,31 @@ const max = 100;
 
 let r = Math.floor(Math.random() * (max - min)) + min;
 console.log(r);
+
+//if statements
+
+let age = 15;
+let hasLicense = false;
+
+if (age >= 16) {
+  console.log("You are old enough to drive");
+
+  if (hasLicense) {
+    console.log("You have a license!");
+  } else {
+    console.log("You do not have your license yet");
+  }
+} else {
+  console.log("You must be 16+ to have a license");
+}
+
+let a = 18;
+if (a >= 100) {
+  console.log("You're too old  to be here");
+} else if (age < 0) {
+  console.log("Age can't be below 0");
+} else if (age >= 18) {
+  console.log("Your old enough to be here");
+} else {
+  console.log("You must not be here");
+}
