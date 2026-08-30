@@ -199,3 +199,93 @@ if (a >= 100) {
 } else {
   console.log("You must not be here");
 }
+
+//Ternary operator.
+let $age = 21;
+let message = $age >= 18 ? "You're an adult" : "You're a minor";
+console.log(message);
+
+let time = 12;
+let greeting = time < 12 ? "Good morning" : "Good afternoon";
+console.log(greeting); 
+
+let isStudent = false;
+let $message = isStudent ? "You're a student" : "You're not a student";
+console.log($message);
+
+let purchaseAmount = 198;
+let discount = purchaseAmount >= 100 ? "You get a 10% discount" : "You don't qualify for a discount";
+console.log(discount);
+
+//Switch statement
+let day = 1;
+
+switch (day) {
+  case 1:
+    console.log("It is Monday");
+    break;
+  case 2:
+    console.log("It is Tuesday");
+    break;
+  case 3: 
+    console.log("It is Wednesday");
+    break;
+  case 4: 
+    console.log("It is Thursday");
+    break;
+  case 5:
+    console.log("It is Friday");
+    break;
+  case 6:
+    console.log("It is Saturday");
+    break;
+  case 7:
+    console.log("It is Sunday");
+    break;
+  default:
+    console.log("Not a day man");
+}
+
+//String Methods
+let userName = "Ethan Castle";
+console.log(userName.charAt(6));
+console.log(userName.indexOf("n"));
+console.log(userName.lastIndexOf("a"));
+console.log(userName.length);
+console.log(userName.trim());
+console.log(userName.trimStart());
+console.log(userName.trimEnd());
+console.log(userName.toLowerCase());
+console.log(userName.toUpperCase());
+console.log(userName.repeat(5));
+console.log(userName.startsWith("E"));
+console.log(userName.endsWith("e")); 
+
+let phoneNumber = "123-456-7890";
+phoneNumber = phoneNumber.replaceAll("-", "");
+console.log(phoneNumber);
+phoneNumber = phoneNumber.padStart(15, "a");
+console.log(phoneNumber);
+
+//String Slicing
+const fullName = "Ethan Castle";
+let firstName = fullName.slice(0, 5);
+let lastName = fullName.slice(6, 12);
+let firstChar = fullName.slice(0, 1);
+let lastChar = fullName.slice(-1);
+let $firstName = fullName.slice(0, fullName.indexOf(" "));
+let $lastName = fullName.slice(fullName.indexOf(" ") + 1);
+
+console.log(firstName);
+console.log(lastName);
+console.log(firstChar);
+console.log(lastChar);
+console.log($firstName);
+console.log($lastName);
+
+const email = "ethancastle@gmail.com";
+
+let UserName = email.slice(0, email.indexOf("@"));
+let extension = email.slice(email.indexOf("@") + 1);
+console.log(UserName);
+console.log(extension);
