@@ -493,3 +493,29 @@ function isValidEmail(email){
 }
 console.log(isValidEmail("snowden@mukui.com"));
 console.log(isValidEmail("aboboyaAtgmail.com"));
+
+//Arrays
+let fruits = ["apple", "orange", "banana"];
+console.log(fruits);
+console.log(fruits[0]);
+console.log(fruits[1]);
+console.log(fruits[2]);
+
+fruits[0] = "grapes";
+fruits[1] = "coconuts";
+fruits[2] = "mangoes";
+fruits[3] = "cantaloupe";
+
+fruits.push("dates"); //adds to the end of the array
+fruits.unshift("soursop"); //adds to the beginning of the array
+console.log(fruits);
+
+fruits.pop(); //removes the last element in the array
+console.log(fruits);
+fruits.shift(); // removes the first element in the array
+console.log(fruits);
+
+let numOfFruits = fruits.length;
+console.log(numOfFruits);
+console.log(fruits.indexOf("cantaloupe"));
+console.log(fruits.indexOf("dates"));
