@@ -289,3 +289,145 @@ let UserName = email.slice(0, email.indexOf("@"));
 let extension = email.slice(email.indexOf("@") + 1);
 console.log(UserName);
 console.log(extension);
+
+
+//Method Chaining
+// let usernames = window.prompt("Enter your name: ");
+// usernames = usernames.trim().charAt(0).toUpperCase() + usernames.trim().slice(1).toLowerCase();
+// console.log(usernames);
+
+//Logical Operators
+const temp = 250;
+// AND logical operator (&&)
+if (temp > 0 && temp <= 30){
+  console.log("The weather is GOOD");
+} else {
+  console.log("The weather is BAD");
+}
+
+// OR logical operator (||)
+if (temp <= 0 || temp > 30){
+  console.log("The weather is BAD");
+} else {
+  console.log("The weather is GOOD");
+}
+
+// NOT logical operator (!)
+const isSunny = true;
+if (!isSunny){
+  console.log("It is SUNNY");
+} else{
+  console.log("It is CLOUDY");
+}
+
+// Assignment Operators
+// = assingment operator
+// == equality operator
+// === strict equality operator
+// != inequality operator
+// !== strict inequality operator
+
+const PI = 3.14;
+
+if (PI == "3.14"){
+  console.log("That is PI");
+} else {
+  console.log("That is NOT PI");
+}
+
+if (PI === "3.14"){
+  console.log("That is PI");
+} else {
+  console.log("That is NOT PI");
+}
+
+if (PI != "3.14"){
+  console.log("That is NOT PI");
+} else {
+  console.log("That is PI");
+}
+
+if (PI !== "3.14"){
+  console.log("That is NOT PI");
+} else {
+  console.log("That is PI");
+}
+
+// //While loop
+// let theUserName = "";
+
+// while(theUserName === "" || theUserName === null){
+//   theUserName = window.prompt("Enter your name:");
+// }
+
+// console.log(`Hello ${theUserName}`);
+
+// //Do...while loop
+// let myName = "";
+// do{
+//   myName = window.prompt("Enter your name:");
+// } while(myName === "" || myName === null);
+
+// console.log(`Hello, ${myName}`);
+
+// let loggedIn = false;
+// let myuserName;
+// let password;
+
+// while(!loggedIn){
+//   myuserName = window.prompt("Enter your username");
+//   password = window.prompt("Enter your password");
+
+//   if (myuserName === "myuserName" && password === "mypassword"){
+//     loggedIn = true;
+//     console.log("You are logged in");
+//   } else {
+//     console.log("Invalid credentials. Please try again");
+//   }
+// }
+
+// do{
+//   myuserName = window.prompt("Enter your username");
+//   password = window.prompt("Enter your password");
+
+//   if (myuserName === "myuserName" && password === "mypassword"){
+//     loggedIn = true;
+//     console.log("You are logged in");
+//   } else {
+//     console.log("Invalid credentials. Please try again");
+//   }
+// } while(!loggedIn)
+
+//for loop
+for(let i = 0; i<=2; i++){
+ console.log("Hello");
+}
+
+for(let i = 10; i>0; i=i-2){
+  console.log("Wadup");
+}
+
+for(let i = 1; i <= 10; i++){
+  console.log("Wagwan gee");
+}
+
+for(let i = 10; i >= 0; i--){
+  console.log(i);
+}
+
+//Continue and Break
+for(let i = 1; i <= 20; i++){
+  if(i == 16){
+    continue //to skip an iteration.
+  } else {
+      console.log(i);
+  }
+}
+
+for(let i = 1; i <= 20; i++){
+  if(i == 16){
+    break //break out of the loop entirely.
+  } else {
+      console.log(i);
+  }
+}
