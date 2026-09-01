@@ -431,3 +431,65 @@ for(let i = 1; i <= 20; i++){
       console.log(i);
   }
 }
+
+//Functions
+function happyBirthday(name, age){
+  console.log("Happy birthday to you");
+  console.log("Happy birthday to you");
+  console.log(`Happy birthday dear ${name}`);
+  console.log("Happy birthday to you");
+  console.log(`You are ${age} years old`);
+}
+
+happyBirthday("Snowden", 26);
+happyBirthday("Tugy", 30);
+
+//add two numbers
+function addTwoNumbers(x ,y){
+  return x + y
+}
+console.log(addTwoNumbers(2, 6));
+console.log(addTwoNumbers(10, 455));
+
+//multiply
+function multiply(a, b){
+  return a * b;
+}
+console.log(multiply(2, 5));
+console.log(multiply(200, 0));
+
+//subtract
+function subtract(c, d){
+  return c - d;
+}
+console.log(subtract(5, 10));
+console.log(subtract(19, 8));
+
+//divide
+function divide(e ,f){
+  return e / f;
+}
+console.log(divide(4, 2));
+console.log(divide(8, 20));
+
+// Even or odd
+function even(number){
+ if (number % 2 === 0){
+  return `${number} is an even number.`
+ } else {
+  return `${number} is an odd number.`
+ }
+}
+console.log(even(2));
+console.log(even(19));
+console.log(even(22));
+
+function isValidEmail(email){
+  if(email.includes("@")){
+    return `${email} is a valid email.`
+  } else{
+    return `${email} is not a valid email.`
+  }
+}
+console.log(isValidEmail("snowden@mukui.com"));
+console.log(isValidEmail("aboboyaAtgmail.com"));
