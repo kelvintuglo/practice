@@ -399,7 +399,7 @@ if (PI !== "3.14"){
 // } while(!loggedIn)
 
 //for loop
-for(let i = 0; i<=2; i++){
+for(let i = 0; i <= 2; i++){
  console.log("Hello");
 }
 
@@ -519,3 +519,63 @@ let numOfFruits = fruits.length;
 console.log(numOfFruits);
 console.log(fruits.indexOf("cantaloupe"));
 console.log(fruits.indexOf("dates"));
+
+//looping through an array
+
+for(let i = 0; i < fruits.length; i++){
+  console.log(fruits[i]);
+}
+
+for(let i = fruits.length - 1; i >= 0 ; i--){
+  console.log(fruits[i]);
+}
+
+for(let fruit of fruits){
+  console.log(fruits[0]);
+}
+
+
+console.log(fruits);
+console.log(fruits.reverse());
+console.log(fruits.sort());
+console.log(fruits.sort().reverse());
+
+//Spread operator (...)
+//Expands an array into separate elements
+let numbers = [1, 2, 3, 4, 5];
+let maximum = Math.max(...numbers);
+let minimum = Math.min(...numbers);
+
+console.log(numbers);
+console.log(maximum);
+console.log(minimum);
+
+let din = "Ethan";
+let letters = [...din];
+
+console.log(letters);
+console.log(letters.join(""));
+console.log(letters.join(" "));
+console.log(letters.join("_"));
+console.log(letters.join("."));
+console.log(letters.join("-"));
+
+let veggies = ["tomato", "potatoes", "cabbage", " carrot"];
+let meals = ["waakye", "jollof", "banku", "tuo"];
+
+let foods = [...veggies, ...meals , "eggs", "milk"];
+console.log(foods);
+
+//rest parameters
+//Bundles seperate elements into an array
+
+function openFridge(...food){
+  console.log(...food);
+}
+const food1 = "pizza";
+const food2 = "hamburger";
+const food3 = "hotdog";
+const food4 = "sushi";
+const food5 = "ramen";
+
+openFridge(food1, food2, food3, food4, food5);
