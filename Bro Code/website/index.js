@@ -1,163 +1,163 @@
-// console.log("Hello, World!");
-// console.log("I like pizza.");
+console.log("Hello, World!");
+console.log("I like pizza.");
 
-// // window.alert(`This is an alert`);
-// // window.alert(`I like pizza`);
+// window.alert(`This is an alert`);
+// window.alert(`I like pizza`);
 
-// // const name = "Kojo Manu";
+// const name = "Kojo Manu";
 
-// // document.getElementById("myH1").textContent = "Hello"; 
-// // document.getElementById("myP").textContent = `Welcome, ${name}`;
-
-
-// // //Variables
-// let age = 25;
-// console.log(age);
-// console.log(typeof age);
-
-// let price = 20.99;
-// console.log(price);
-// console.log(typeof price);
-
-// let gpa = 2.1;
-// console.log(gpa);
-// console.log(typeof gpa);
-
-// console.log(`You are ${age} years old`);
-// console.log(`The price is $${price}`);
-// console.log(`YOur gpa is: ${gpa}`);
-
-// // //Strings
-// let firstName = "tugy";
-// console.log(firstName);
-// console.log(typeof firstName);
-// console.log(`Your firstName is ${firstName}`);
-
-// let favouriteFood = "Waakye";
-// console.log(favouriteFood);
-// console.log(typeof favouriteFood);
-// console.log(`Your favourite food is: ${favouriteFood}`); 
-
-// let email = "wagwan456@cockney.com";
-// console.log(email);
-// console.log(typeof email);
-// console.log(`The email is: ${email}`);
-
-// // //Booleans
-// let online = true;
-// console.log(online);
-// console.log(typeof online);
-// console.log(`He is online: ${online}`);
-
-// let forSale = true;
-// console.log(forSale);
-// console.log(typeof forSale);
-// console.log(`Is this car for sale? ${forSale}`); 
-
-// let isEnrolled = false;
-// console.log(isEnrolled);
-// console.log(typeof isEnrolled);
-// console.log(`Are you enrolled in school? ${isEnrolled}`);
-
-// // let fullName = "Ethan Castle";
-// // let score = 26;
-// // let student = true;
-
-// // document.getElementById("p1").textContent = `My full name is: ${fullName}.`;
-// // document.getElementById("p2").textContent = `I am ${score} years old.`;
-// // document.getElementById("p3").textContent = `Are you currently a student: ${student}.`; 
-
-// //Arithmetic Operators
-
-// let students = 45;
-// students = students + 1;
-// students = students - 1;
-// students = students * 1;
-// students = students / 1;
-// students = students ** 2;
-// students = students % 4;
-
-// //Augmented assignment operators
-// students += 1;
-// students -= 1;
-// students *= 2;
-// students /= 2;
-// students **= 2;
-// students %= 2;
-
-// //Increment and Decrement operators
-// students++;
-// students--;
+// document.getElementById("myH1").textContent = "Hello"; 
+// document.getElementById("myP").textContent = `Welcome, ${name}`;
 
 
+// //Variables
+let age = 25;
+console.log(age);
+console.log(typeof age);
 
-// console.log(students);
+let price = 20.99;
+console.log(price);
+console.log(typeof price);
+
+let gpa = 2.1;
+console.log(gpa);
+console.log(typeof gpa);
+
+console.log(`You are ${age} years old`);
+console.log(`The price is $${price}`);
+console.log(`YOur gpa is: ${gpa}`);
+
+// //Strings
+let firstName = "tugy";
+console.log(firstName);
+console.log(typeof firstName);
+console.log(`Your firstName is ${firstName}`);
+
+let favouriteFood = "Waakye";
+console.log(favouriteFood);
+console.log(typeof favouriteFood);
+console.log(`Your favourite food is: ${favouriteFood}`); 
+
+let email = "wagwan456@cockney.com";
+console.log(email);
+console.log(typeof email);
+console.log(`The email is: ${email}`);
+
+// //Booleans
+let online = true;
+console.log(online);
+console.log(typeof online);
+console.log(`He is online: ${online}`);
+
+let forSale = true;
+console.log(forSale);
+console.log(typeof forSale);
+console.log(`Is this car for sale? ${forSale}`); 
+
+let isEnrolled = false;
+console.log(isEnrolled);
+console.log(typeof isEnrolled);
+console.log(`Are you enrolled in school? ${isEnrolled}`);
+
+// let fullName = "Ethan Castle";
+// let score = 26;
+// let student = true;
+
+// document.getElementById("p1").textContent = `My full name is: ${fullName}.`;
+// document.getElementById("p2").textContent = `I am ${score} years old.`;
+// document.getElementById("p3").textContent = `Are you currently a student: ${student}.`; 
+
+//Arithmetic Operators
+
+let students = 45;
+students = students + 1;
+students = students - 1;
+students = students * 1;
+students = students / 1;
+students = students ** 2;
+students = students % 4;
+
+//Augmented assignment operators
+students += 1;
+students -= 1;
+students *= 2;
+students /= 2;
+students **= 2;
+students %= 2;
+
+//Increment and Decrement operators
+students++;
+students--;
 
 
-// //Taking User Imput
-// // 1. Creating a window prompt
-// // 2. HTML Textbox
 
-// // Creating a window prompt.
-// // let username;
-// // username = window.prompt("What's your username?");
-// // console.log(username);
+console.log(students);
 
-// // 2 
+
+//Taking User Imput
+// 1. Creating a window prompt
+// 2. HTML Textbox
+
+// Creating a window prompt.
 // let username;
-// // document.getElementById("mySubmit").onclick = function () {
-// //   username = document.getElementById("myText").value;
-// //   console.log(username);
-// //   document.getElementById("myh2").textContent = `Wagwan, ${username}`;
-// // }
+// username = window.prompt("What's your username?");
+// console.log(username);
 
-// let firstname;
-// let lastname;
-// let fullname;
-
-// // document.getElementById("submit").onclick = function () {
-// //   firstname = document.getElementById("firstname").value;
-// //   lastname = document.getElementById("lastname").value;
-// //   fullname = firstname + " " + lastname;
-// //   document.getElementById("g").textContent = `Welcome back ${fullname}`;
-// //   console.log(fullname);
-// // }
-
-// //Circumference
-// const PI = 3.14159;
-// let radius;
-// let circumference;
-
-// // document.getElementById("h").onclick = function () {
-// //   radius = document.getElementById("rad").value;
-// //   radius = Number(radius);
-// //   circumference = 2 * PI * radius;
-// //   document.getElementById("myh3").textContent = `Circumference is: ${circumference}cm`;
-// // }
-
-// //Counter Program
-// const decreaseBtn = document.getElementById("decreaseBtn");
-// const resetBtn = document.getElementById("resetBtn");
-// const increaseBtn = document.getElementById("increaseBtn");
-// const countlabel = document.getElementById("countlabel");
-
-// let count = 0;
-// increaseBtn.onclick = function() {
-//   count += 2;
-//   countlabel.textContent = count;
-//   console.log(count);
+// 2 
+let username;
+// document.getElementById("mySubmit").onclick = function () {
+//   username = document.getElementById("myText").value;
+//   console.log(username);
+//   document.getElementById("myh2").textContent = `Wagwan, ${username}`;
 // }
 
-// resetBtn.onclick = function(){
-//   count = 0;
-//   countlabel.textContent = count;
+let firstname;
+let lastname;
+let fullname;
+
+// document.getElementById("submit").onclick = function () {
+//   firstname = document.getElementById("firstname").value;
+//   lastname = document.getElementById("lastname").value;
+//   fullname = firstname + " " + lastname;
+//   document.getElementById("g").textContent = `Welcome back ${fullname}`;
+//   console.log(fullname);
 // }
 
-// decreaseBtn.onclick = function(){
-//   count -= 2;
-//   countlabel.textContent = count;
-//   console.log(count);
+//Circumference
+const PI = 3.14159;
+let radius;
+let circumference;
+
+// document.getElementById("h").onclick = function () {
+//   radius = document.getElementById("rad").value;
+//   radius = Number(radius);
+//   circumference = 2 * PI * radius;
+//   document.getElementById("myh3").textContent = `Circumference is: ${circumference}cm`;
 // }
+
+//Counter Program
+const decreaseBtn = document.getElementById("decreaseBtn");
+const resetBtn = document.getElementById("resetBtn");
+const increaseBtn = document.getElementById("increaseBtn");
+const countlabel = document.getElementById("countlabel");
+
+let count = 0;
+increaseBtn.onclick = function() {
+  count += 2;
+  countlabel.textContent = count;
+  console.log(count);
+}
+
+resetBtn.onclick = function(){
+  count = 0;
+  countlabel.textContent = count;
+}
+
+decreaseBtn.onclick = function(){
+  count -= 2;
+  countlabel.textContent = count;
+  console.log(count);
+}
 
 //Random Number
 let random = Math.random();
@@ -353,50 +353,50 @@ if (PI !== "3.14"){
   console.log("That is PI");
 }
 
-// //While loop
-// let theUserName = "";
+//While loop
+let theUserName = "";
 
-// while(theUserName === "" || theUserName === null){
-//   theUserName = window.prompt("Enter your name:");
-// }
+while(theUserName === "" || theUserName === null){
+  theUserName = window.prompt("Enter your name:");
+}
 
-// console.log(`Hello ${theUserName}`);
+console.log(`Hello ${theUserName}`);
 
-// //Do...while loop
-// let myName = "";
-// do{
-//   myName = window.prompt("Enter your name:");
-// } while(myName === "" || myName === null);
+//Do...while loop
+let myName = "";
+do{
+  myName = window.prompt("Enter your name:");
+} while(myName === "" || myName === null);
 
-// console.log(`Hello, ${myName}`);
+console.log(`Hello, ${myName}`);
 
-// let loggedIn = false;
-// let myuserName;
-// let password;
+let loggedIn = false;
+let myuserName;
+let password;
 
-// while(!loggedIn){
-//   myuserName = window.prompt("Enter your username");
-//   password = window.prompt("Enter your password");
+while(!loggedIn){
+  myuserName = window.prompt("Enter your username");
+  password = window.prompt("Enter your password");
 
-//   if (myuserName === "myuserName" && password === "mypassword"){
-//     loggedIn = true;
-//     console.log("You are logged in");
-//   } else {
-//     console.log("Invalid credentials. Please try again");
-//   }
-// }
+  if (myuserName === "myuserName" && password === "mypassword"){
+    loggedIn = true;
+    console.log("You are logged in");
+  } else {
+    console.log("Invalid credentials. Please try again");
+  }
+}
 
-// do{
-//   myuserName = window.prompt("Enter your username");
-//   password = window.prompt("Enter your password");
+do{
+  myuserName = window.prompt("Enter your username");
+  password = window.prompt("Enter your password");
 
-//   if (myuserName === "myuserName" && password === "mypassword"){
-//     loggedIn = true;
-//     console.log("You are logged in");
-//   } else {
-//     console.log("Invalid credentials. Please try again");
-//   }
-// } while(!loggedIn)
+  if (myuserName === "myuserName" && password === "mypassword"){
+    loggedIn = true;
+    console.log("You are logged in");
+  } else {
+    console.log("Invalid credentials. Please try again");
+  }
+} while(!loggedIn)
 
 //for loop
 for(let i = 0; i <= 2; i++){
@@ -537,7 +537,7 @@ for(let fruit of fruits){
 
 console.log(fruits);
 console.log(fruits.reverse());
-console.log(fruits.sort());
+console.log(fruits.sort()); //arranges text in the array alphabetically but doesn't do so well with arranging numbers from ascending to descending order well
 console.log(fruits.sort().reverse());
 
 //Spread operator (...)
@@ -579,3 +579,110 @@ const food4 = "sushi";
 const food5 = "ramen";
 
 openFridge(food1, food2, food3, food4, food5);
+
+//for..of loop.
+
+const scores = [45, 78, 90, 62, 88];
+
+let total = 0;
+for(let score of scores){
+  total = total + score;
+}
+
+console.log(total);
+
+const word = "javascript";
+
+let char = 0;
+for(let letter of word){
+  if(letter === "a" || letter === "e" || letter === "i" || letter === "o" || letter === "u"){
+    char++;
+    console.log(letter);
+  }
+  else{
+    continue;
+  }
+}
+
+
+console.log(char);
+
+
+const students = [
+  { name: "Ama", score: 70 },
+  { name: "Kojo", score: 85 },
+  { name: "Efua", score: 60 },
+  { name: "Yaw", score: 95 }
+];
+
+let tot = 0;
+
+for(let student of students){
+  tot = tot + student.score;
+}
+
+console.log(tot);
+
+let average = tot / students.length;
+console.log(average);
+
+//for...in loop
+
+const array = ["boy", "girl", "man", "woman"];
+console.log(Array.isArray(array));
+console.log(typeof array === "object");
+
+const string = "bbu";
+console.log(!Array.isArray(string));
+console.log(typeof string === !"object");
+
+const product = {
+  name: "Laptop",
+  price: 3500,
+  brand: "Dell",
+  inStock: true
+};
+
+let str;
+
+for(const prod in product){
+  str = `${prod}: ${product[prod]},`;
+  console.log(str);
+}
+
+const features = {
+  darkMode: true,
+  notifications: false,
+  autoSave: true,
+  betaAccess: false,
+  offlineMode: true
+};
+
+let count = 0;
+for(let part in features){
+  if(features[part] === true){
+    count++;
+  }
+}
+
+console.log(count);
+
+const defaults = {
+  theme: "light",
+  fontSize: 14,
+  notifications: true,
+  autoSave: false
+};
+
+const userSettings = {
+  theme: "dark",
+  autoSave: true
+};
+
+const finalSettings = {};
+
+for(let def in defaults){
+  
+
+  console.log(`${def}: ${defaults[def]}`);
+}

@@ -196,3 +196,145 @@ function serializeLedger(ledger) {
 function loadLedger(json) {
   return JSON.parse(json);
 }
+
+//Sentece Analyzer
+//Vowel Count
+function getVowelCount(sentence){
+  sentence = sentence.toLowerCase();
+
+  let vowels = ["a", "e", "i", "o", "u"];
+  let vowelsFound = [];
+
+  for(let vow of sentence){
+    if(vowels.includes(vow)){
+      vowelsFound.push(vow);
+    }
+  }
+    return vowelsFound.length;
+}
+
+console.log(getVowelCount("Apples are tasty fruits"));
+console.log(getVowelCount("Hello World"));
+console.log(getVowelCount("Wagwan, you good?"));
+
+//Consonant Count
+function getConsonantsCount(sentence){
+  sentence = sentence.toLowerCase();
+
+  let vowels = ["a", "e", "i", "o", "u"];
+  let consonants = [];
+
+  for(let con of sentence){
+    if(!vowels.includes(con) && con.charCodeAt(0) >= 97 && con.charCodeAt(0) <= 122){
+      consonants.push(con);
+    }
+  }
+
+  return consonants.length;
+}
+
+console.log(getConsonantsCount("Apples"));
+console.log(getConsonantsCount("Apples are tasty fruits"));
+console.log(getConsonantsCount("Wagwan, you good?"))
+console.log(getConsonantsCount("Coding is fun"));
+console.log(getConsonantsCount("hello world"));
+
+//Punctuation Count
+function getPunctuationCount(sentence){
+  sentence = sentence.toLowerCase();
+
+  let punctuation = [];
+
+  for(let pun of sentence){
+    if(
+      pun.charCodeAt(0) >= 33 && pun.charCodeAt(0) <= 47 || 
+      pun.charCodeAt(0) >= 58 && pun.charCodeAt(0) <= 64 || 
+      pun.charCodeAt(0) >= 91 && pun.charCodeAt(0) <= 96 || 
+      pun.charCodeAt(0) >= 123 && pun.charCodeAt(0) <= 126){
+      punctuation.push(pun);
+    }
+  }
+
+  return punctuation.length;
+}
+
+console.log(getPunctuationCount("Wagwan gee, you good?"));
+console.log(getPunctuationCount("What????!"));
+
+//Word Count
+function getWordCount(paragraph){
+  paragraph = paragraph.toLowerCase();
+
+  let words = paragraph.split("");
+  let fiteredWords = words.filter((word) => word !== "");
+  return words.length;
+}
+
+console.log(getWordCount("Where is my money?"));
+console.log(getWordCount("Wagwan man"));
+console.log(getWordCount("All I'm trying to say is that, I wanna love God more and more"));
+console.log(getWordCount(""));
+
+//Factorial Calculator
+let num = 6;
+
+function factorialCalculator(number){
+  let result = 1;
+
+  let i = number;
+
+  /*
+  because in a do...while loop, 0! returns 1 which is wrong
+  and so we put this if statement here to check that.
+  */
+  if(number === 0){
+    return 1;
+  }
+
+  //for...loop variation
+  // for(let i = number; i >=1; i--){
+  //   result = result * i;
+  // }
+
+  //while loop variation
+  // while(i >= 1){
+  //   result = result * i;
+  //   i--;
+  // }
+
+  //do...while variation
+  do{
+    result = result * i;
+    i--;
+  } while(i >= 1);
+
+  return result;
+
+}
+
+console.log(factorialCalculator(num));
+console.log(factorialCalculator(5));
+console.log(factorialCalculator(0));
+console.log(factorialCalculator(4));
+
+//End results from fcc.
+let factorial = factorialCalculator(num);
+console.log(factorial);
+
+let resultMsg = `Factorial of ${num} is ${factorial}`;
+console.log(resultMsg);
+
+//String Reeater
+function repeatStringNumTimes(string, number){
+  let accString = "";
+
+  for(let i = 1; i <= number; i++){
+    accString = accString + string;
+
+  }
+
+  return accString;
+}
+
+
+console.log(repeatStringNumTimes("Kofi", 3));
